@@ -9,7 +9,7 @@ class ImageBBCode {
 
 			$file = wfFindFile($wgTitle);
 			//$fileURL = $file->getFullURL(); // or getFullURL()
-			$thumb = $file->getThumbnail(200);
+			$thumb = $file->getThumbnail(400);
 			$thumbURL = $wgServer . ($thumb->getURL());
 			$pageURL = $wgServer . $file->getDescriptionURL();
 			$embedCode = Xml::openElement( 'small' );
