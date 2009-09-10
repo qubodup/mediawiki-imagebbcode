@@ -15,7 +15,7 @@ class ImageBBCode {
 			$embedCode = Xml::openElement( 'small' );
 			$embedCode .= wfMsg ( 'title' ) ;
 			$embedCode .= Xml::closeElement( 'small' );
-			$embedCode .= Xml::element( 'input', array( 'type' => 'text', 'value' => '[url=' . $pageURL . '][img]' . $thumbURL . '[/img][/url]', 'size' => '20%' ) ) ;
+			$embedCode .= Xml::element( 'input', array( 'type' => 'text', 'value' => '[url=' . $pageURL . '][img]' . $thumbURL . '[/img][/url]', 'size' => '20%', 'readonly' => 'readonly' ) ) ;
 			$embedCode .= Xml::openElement( 'small' );
 			$embedCode .= wfMsg ( 'instructions' ) ;
 			$embedCode .= Xml::closeElement( 'small' );
