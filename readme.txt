@@ -13,4 +13,6 @@ Inspired by Flickr <http://flickr.com> and Flickr BBcode Tool <http://www.fatreg
 
 Written by Iwan 'qubodup' Gabovitch <qubodup@gmail.com> <http://qubodup.net>
 
+Example can be seen at http://yfrog.com/63examplezyp (up to date on 15 April 2010).
+
 Many thanks to irc.freenet.org#mediawiki for helping with bits of code!
